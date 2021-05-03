@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="steve jones, steve, jones, stevejones.io, georgia tech, georiga institute of technology, atlanta, boston, umass, umass amherst, university of massachusetts, front-end, web, website, computer science, software, developer, engineer, designer, ux" />
+  <meta name="author" content="Steve Jones" />
+  <meta name="description" content="Developer | Designer | Researcher" />
+
+  <title>Haley Farber</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- BOOTSTRAP STYLE SHEET -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
+  <link href="js/source/jquery.fancybox.css" rel="stylesheet" />
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80316791-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- ====================================================================================
+
+
+  .NNOZZ8DON,.
+  .,8Z88ZZ8ZZNN8OOO8..
+  DDOOODOZNZD8DOOONNDN8.
+  .Z888N888O88ODDDODDDOOO8ON.
+  =8O8D8D8DD8D8ODD8DDDOO8OO88N.
+  8OO8D8DDDDDDDDDD8DDD8DOOZO8I
+  .8O888$ONNNMOIDD8DMOZO8ODD8D8O.
+  .888==~~~~~~~~~~~~~~~~~~~~~N888,
+  D888==~~~~~~~~~~~~~~~~~~~~~~=888.     ==============================
+  .888O=~~~~~~~~~~~~~~~~~~~~~~~~=88=     |                            |
+  .88OI=~~~~~~~~~~~~~~~~~~~~~~~~=?8O.    |         HEY THERE!         |
+  .ZOOO==~~~~~~~~~~~~~~~~~~~~~~~~==OO     |                            |
+  .DOOO==~~~~~~~~~~~===~~~~~~~~~~==OO     |     THANKS FOR CHECKING    |
+  OOOO==~~~~~~~~~~~~~~~~~~~~~~~~==OO.    |        OUT MY SITE         |
+  OOO===~~~~~~~~~~~~~~~~~~~~~~~~==OO.    |                            |
+  .DOO==~~$$$$$$$~~~~~~~~~~$$$$~~~=OO.    |     SHOOT ME AN EMAIL:     |
+  ~~~OO==~~~~~~~~==~~~~~~++=~~~~+$~=ZZ     |    STEVE@STEVEJONES.IO     |
+  ID~O==~~~~M888=7+~~~~Z+?+D~7~~~~=?Z~.   |                            |
+  .O++I=+~~~~~~~~~=+~~~~+DIOZ.:+~~~=+~=+   ==============================
+  ~8~I=~~~~~~~~~~~~~~~~=~~~~~~~~~~=++M
+  ,$I+=~~~~~~~~~~~~~~~~~~~~~~~~~~~=Z~~.
+  .=~I=~~~~~~~~~~~~~~~~~~~~~~~~~~~=M~8
+  .~~=~~~~~~~~~~=~~~~~~+~~~~~~~~~=?O.
+  +~N~~~~~~~~~~~~~~~~=~?~~~~~~~~=~~.
+  .?+~~~~~~~~~~~+++$~~~~~~~~~~~=...
+  .+~~~~~~~~~~~~~~~~~~~~~~~~~=D
+  $+~~~~~I~~+?=~~~~~~~~~~~~~=.
+  .++~~~~~~+++++????+~~~~~~=+
+  ~++~~~~~~~~~~~~~~~~~~~~+=.
+  ~+++~~~~~~~~~~~~~~~~~~==.
+  ~~+7+~~~~~~===~~~~~~~~=.
+  .+~~+++~~~~~~~~~~~~~~~Z.
+  .+ ~~~++I~~~~~~~~~~~~~~.
+  .+N.  .~~===$~~~~~~~~~8~~.
+  .NNM.   ..I~===========~~?.
+  .MNNNN8$      N~========~~~M.
+  .NNNNNNNN7.      .I~~~~~~~~=.?
+  ..:NNNNNNNNNNNN .       ..~~~~~I. .N
+  .NNNNNNNDNNNNNNNNN,+         .8DD.. .NND..
+  ..MNNNNNNNNNNDNNNNNNNNNN?M        =NDD88. DNNNDN~..
+  ..?NNNNNNNNNNNNNNNNNNNNNNNNNN$=.     .NDD8888 DNNNNNNNNN..
+  .8NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN...    =NN8888D$..NNNNNNNNNN=.
+  NNNNNNNNNNNNNNNNNNNNNNNDNNNNNNNNN .:. Z~ MNNNND.Z..NNNNNNNNNNNM
+  NNNNNNNNNNNNNNNNNNNNNNDNNNNNNNNNNN. M.~  ..NNND8..  NNNDNNNNNNNN.
+  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNND  .     NNDDD.   .NNNNNDNNNNNN
+  NNNNMNNNNNNNNNNNNNNNNMNNNNNNNNNNNNNM.     .NN8888    MNNNNNNNNNNN.
+  NNNNNMNNNNNNNNNNNNNNNNMDNNNNNNNNNNNN$.    +NNDD88~   .NNNNNMNNNNND
+  NNNNNNMNNNNNNNNNNNNNNNNMMNNNNNNNNNNNN:    MNNDDD88.   7NNNNDNNNNNN.
+  NNNNNNNMNNNNNNNNNNNNNNNNNMDNNNNNNNNNNN.   MNNDDDDDM.   NNNNNNNNNNND
+  NNNNNNNNMMNNNNNNNNNNNNNNNNMMNNNNNNNNNNN.  MNN88DDDD.   MNNNNMNNNNNN
+  ==================================================================================== -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <span class="light">Haley</span> Farber
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <!-- <li> -->
+            <!-- <a class="page-scroll" href="#about">About</a> -->
+          <!-- </li> -->
+          <li>
+            <a class="page-scroll" href="#resume">Resume</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Intro Header -->
+  <section id="intro" class="intro text-center">
+    <div class="overlay">
+      <div class="intro-content">
+        <h1 class="brand-heading animated fadeInDown delay-05s">Haley Farber</h1>
+        <div class="picture hasPulse" id=picture></div>
+        <p class="intro-text animated fadeIn delay-2s">I'm a graduate student in UC Berkeley's Master of Information and Data Science program with skills in Python, R, SQL, and Tableau.</p>
+      </div>
+    </div>
+    <div class="scroll-arrow">
+      <a href="#resume" class="fa fa-angle-down page-scroll">
+      <!-- <i class="fa fa-angle-down page-scroll"></i> -->
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="text-center">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="resume-caption">Check out my resume</h2>
+              <div id="resume-button">
+                <a class="resume-btn animated bounceIn" href="Haley Farber Resume 2021.pdf" target="_blank">Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <!-- FILTER PORTFOLIO START -->
+      <div class="row text-center">
+        <div class="col-lg-12 text-center">
+          <h2 class="portfolio-title">Portfolio</h2>
+          <!-- <h5 class="filter-text">(click tags to filter by type)</h5> -->
+        </div>
+        <div class="col-md-12">
+          <div class="categories">
+            <a href="#" data-filter="*" class="portfolio-btn">All</a>
+            <a href="#" data-filter=".viz" class="portfolio-btn">DATA VISUALIZATION</a>
+            <a href="#" data-filter=".nlp" class="portfolio-btn">NLP</a>
+            <a href="#" data-filter=".mlearn" class="portfolio-btn">MACHINE LEARNING</a>
+            <a href="#" data-filter=".eng" class="portfolio-btn">DATA ENGINEERING</a>
+            <a href="#" data-filter=".stats" class="portfolio-btn">STATISTICS</a>
+            <a href="#" data-filter=".experiments" class="portfolio-btn">EXPERIMENTS</a>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center" id="portfolio-div">
+        <!-- Twitter Bot Detection Visualization -->
+        <div class="col-md-4 col-sm-6 portfolio-item nlp">
+          <div class="portfolio-hover" data-toggle="modal" href="#twitter-bot-detection">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Twitter Bot Detection</h4>
+                <hr>
+                <h6>Utilizing BERT and DistilBERT to Classify Tweets</h6>
+              </div>
+            </div>
+            <img src="img/projects/twitter-bot-detector/twitter.png" class="portfolio-image img-responsive" alt="">
+          </div>
+        </a>
+        </div>
+        <!-- Coffee Review Visualization -->
+        <div class="col-md-4 col-sm-6 portfolio-item viz">
+          <div class="portfolio-hover" data-toggle="modal" href="#coffee-review">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Coffee Review</h4>
+                <hr>
+                <h6>Visualizations of Coffee Reviews from coffeereview.com using Tableau</h6>
+              </div>
+            </div>
+            <img src="img/projects/coffee-review/coffee-review.jpg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Digit Recoginition and Classification -->
+        <div class="col-md-4 col-sm-6 portfolio-item writing mlearn">
+          <div class="portfolio-hover" data-toggle="modal" href="#digit-recognition">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Digit Recognition and Classification</h4>
+                <hr>
+                <h6>MNIST Data Set: KNN and Naive Bayes</h6>
+              </div>
+            </div>
+            <img src="img/projects/digit-recognition/digit-recognition.png" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Article Topics -->
+        <div class="col-md-4 col-sm-6 portfolio-item mlearn">
+          <div class="portfolio-hover" data-toggle="modal" href="#article-topics">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Classifying Article Topics</h4>
+                <hr>
+                <h6>Logistic Regression, KNN, Count Vectorizer and TFIDF Vectorizer, Multinomial NB</h6>
+              </div>
+            </div>
+            <img src="img/projects/article-topics/article-topics.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Poisonous Mushrooms -->
+        <div class="col-md-4 col-sm-6 portfolio-item mlearn">
+          <div class="portfolio-hover" data-toggle="modal" href="#poisonous-mushrooms">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Classifying Poisonous Mushrooms</h4>
+                <hr>
+                <h6>PCA, Gaussian Mixture Models</h6>
+              </div>
+            </div>
+            <img src="img/projects/poisonous-mushrooms/poisonous-mushrooms.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Lyft Bay Wheels -->
+        <div class="col-md-4 col-sm-6 portfolio-item eng">
+          <div class="portfolio-hover" data-toggle="modal" href="#lyft-bay-wheels">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Lyft Bay Wheels Project</h4>
+                <hr>
+                <h6>Big Analytics Using Google BigQuery: Help Discover Business Insights for Lyft Bay Wheels </h6>
+              </div>
+            </div>
+            <img src="img/projects/lyft-bay-wheels/lyft-bay-wheels.jpg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Assessment Services -->
+        <div class="col-md-4 col-sm-6 portfolio-item eng">
+          <div class="portfolio-hover" data-toggle="modal" href="#assessment-services">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Assessment Services</h4>
+                <hr>
+                <h6>Lambda Architecture Using Spark and HDFS</h6>
+              </div>
+            </div>
+            <img src="img/projects/assessment-services/assessment-services.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Tracking Game Events -->
+        <div class="col-md-4 col-sm-6 portfolio-item eng">
+          <div class="portfolio-hover" data-toggle="modal" href="#tracking-game-events">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Tracking Game Events</h4>
+                <hr>
+                <h6>Streaming Data Analytics Using Spark and HDFS, Apache Bench</h6>
+              </div>
+            </div>
+            <img src="img/projects/tracking-game-events/tracking-game-events.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Hypothesis Test -->
+        <div class="col-md-4 col-sm-6 portfolio-item stats">
+          <div class="portfolio-hover" data-toggle="modal" href="#hypothesis-test">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>ANES: Studying US Voters</h4>
+                <hr>
+                <h6>Hypothesis Tests/Comparing Means, Analysis in R</h6>
+              </div>
+            </div>
+            <img src="img/projects/hypothesis-test/hypothesis-test.png" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Covid-19 -->
+        <div class="col-md-4 col-sm-6 portfolio-item stats">
+          <div class="portfolio-hover" data-toggle="modal" href="#covid-19">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Regression to Study the Spread of Covid-19</h4>
+                <hr>
+                <h6>OLS Regressions on Stay at Home Orders, Analysis in R</h6>
+              </div>
+            </div>
+            <img src="img/projects/covid-19/covid-19.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Model Size-->
+        <div class="col-md-4 col-sm-6 portfolio-item experiments">
+          <div class="portfolio-hover" data-toggle="modal" href="#model-size">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Effect of Plus-Size Models on Intent to Purchase Clothing</h4>
+                <hr>
+                <h6>Experiment with Survey, Analyis in R</h6>
+              </div>
+            </div>
+            <img src="img/projects/model-size/model-size.jpeg" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+        <!-- Online News -->
+        <div class="col-md-4 col-sm-6 portfolio-item mlearn">
+          <div class="portfolio-hover" data-toggle="modal" href="#online-news">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>Online News Popularity: Predicting Number of Views of Online Articles, Forbes Case Study</h4>
+                <hr>
+                <h6>Linear Regression,Ridge Regression, RANSAC, Feature Engineering, Web Scraping</h6>
+              </div>
+            </div>
+            <img src="img/projects/online-news/forbes.png" class="portfolio-image img-responsive" alt="">
+          </div>
+        </div>
+      <!-- FILTER PORTFOLIO END -->
+    </container>
+  </section>
+
+  <!--======== PORTFOLIO LIGHTBOX ========-->
+  <!-- mlb-stat-vis -->
+  <div class="modal fade" id="mlb-stat-vis" tabindex="-1" role="dialog" aria-labelledby="mlb-stat-vis" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">MLB Statistics Visualization</h4>
+          <h6 class="modal-title-description">Design & Dev of a D3 info-vis for MLB stats</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/mlb-stat-vis/mlb-stat-vis.png" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="mlb-stat-vis" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- twitter-bot-detection lightbox -->
+  <div class="modal fade" id="twitter-bot-detection" tabindex="-1" role="dialog" aria-labelledby="twitter-bot-detection" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Twitter Bot Detection</h4>
+          <h6 class="modal-title-description">Classifying Tweets Using CNN, BERT, and DistilBERT</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/twitter-bot-detector/twitter.png" alt="">
+          </p>
+          <p class="modal-description">Internet bot detection is an important challenge Twitter faces, and currently there is no policy banning Twitter bots. Using machine learning models and deep learning, Twitter should be able to flag bots on a tweet level. This project explores the use of BERT and DistilBERT models to classify if tweets were written by a bot or human. We also explore the use of LIME to identify which words infer a tweet came from an internet bot. This project’s results show great promise in the use of deep learning models to detect internet bots as well as recommendations on ways to adjust these models to detect tweets written by bots with higher accuracy.</p>
+          <div class="button_wrapper">
+            <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Natural%20Language%20Processing/W266FinalPaper.pdf" target="_blank" id="visit-btn">View Paper</a></p>
+            <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing" target="_blank" id="visit-btn">View Code</a></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- coffee-review lightbox -->
+  <div class="modal fade" id="coffee-review" tabindex="-1" role="dialog" aria-labelledby="cofee-review" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Coffee Review</h4>
+          <h6 class="modal-title-description">Site of Visualizations of Coffee Reviews from coffeereview.com using Tableau</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/coffee-review/coffee-site.png" alt="">
+          </p>
+          <p class="modal-description">Webscraped data from coffeereview.com and used Tableau and d3 to create informative visualizations that allow coffee enthusiasts to learn about coffee and find a coffee that matches their preferences.</p>
+          <p class="visit"><a href="https://people.ischool.berkeley.edu/~haleyfarber/" target="_blank" id="visit-btn">Visit Site</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Digit-Recognition -->
+  <div class="modal fade" id="digit-recognition" tabindex="-1" role="dialog" aria-labelledby="digit-recognition" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Digit Recognition and Classification</h4>
+          <h6 class="modal-title-description">MNIST Data Set: KNN and Naive Bayes</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/digit-recognition/digit-recognition.png" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Machine%20Learning/Project%201/Haley_Farber_p1.ipynb" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Article Topics -->
+  <div class="modal fade" id="article-topics" tabindex="-1" role="dialog" aria-labelledby="article-topics" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Classifying Article Topics</h4>
+          <h6 class="modal-title-description">Logistic Regression, KNN, Count Vectorizer and TFIDF Vectorizer, Multinomial NB</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/article-topics/article-topics-pics-2.png" alt="">
+          </p>
+          <p class="modal-description">Sample logisitc regression code and table of weights for various words and article topics. View notebook for other ML models.</p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Machine%20Learning/Project%202/Haley_Farber_p2.ipynb" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Poisonous Mushrooms -->
+  <div class="modal fade" id="poisonous-mushrooms" tabindex="-1" role="dialog" aria-labelledby="poisonous-mushrooms" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Classifying Poisonous Mushrooms</h4>
+          <h6 class="modal-title-description">PCA, Gaussian Mixture Models</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/poisonous-mushrooms/mushroom-code.png" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Machine%20Learning/Project%203/Haley_Farber_p3.ipynb" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Lyft Bay Wheels-->
+  <div class="modal fade" id="lyft-bay-wheels" tabindex="-1" role="dialog" aria-labelledby="lyft-bay-wheels" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Lyft Bay Wheels Project</h4>
+          <h6 class="modal-title-description">Big Analytics Using Google BigQuery: Help Discover Business Insights for Lyft Bay Wheels</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/lyft-bay-wheels/lyft-pics.png" alt="">
+          </p>
+          <p class="modal-description">Sample pictures and SQL query to help discover business insights.I suggest either increasing the amount of the monthly or yearly membership fee or decreasing the amount of time per trip that is included as a part of the membership with no additional fee. I also suggest increasing marketing and awareness for the corporate memberships deal since most of the subsribers appear to be commuters to and from and work.</p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Data%20Engineering/%20Big%20Data%20Analytics%20using%20Google%20BigQuery/Project_1.ipynb" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Assessment Services -->
+  <div class="modal fade" id="assessment-services" tabindex="-1" role="dialog" aria-labelledby="assessment-services" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Assessment Services</h4>
+          <h6 class="modal-title-description">Lambda Architecture Using Spark and HDFS</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/assessment-services/assessment-services.jpeg" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/tree/main/Data%20Engineering/Lambda%20Architecture%20using%20Spark%20and%20HDFS" target="_blank" id="visit-btn">View Repository</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tracking Game Events -->
+  <div class="modal fade" id="tracking-game-events" tabindex="-1" role="dialog" aria-labelledby="tracking-game-events" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Tracking Game Events</h4>
+          <h6 class="modal-title-description">Streaming Data Analytics Using Spark and HDFS, Apache Bench</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/tracking-game-events/tracking-game-events-pics.png" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/tree/main/Data%20Engineering/Streaming%20Data%20Analytics%20using%20Spark%20and%20HDFS" target="_blank" id="visit-btn">View Repository</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hypothesis Test -->
+  <div class="modal fade" id="hypothesis-test" tabindex="-1" role="dialog" aria-labelledby="hypothesis-test" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">ANES: Studying US Voters</h4>
+          <h6 class="modal-title-description">Hypothesis Tests/Comparing Means, Analysis in R</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/hypothesis-test/statspic.png" alt="">
+          </p>
+          <p class="modal-description">Hypothesis tests such as unpaired t-test, paired t-test, sign test, and Wilcoxon rank-sum test performed on various topics after exploratory data analysis such as in pictures above</p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Statistics/Lab%201%20-%20Comparing%20Means/Hua_Farber_Schulz.pdf" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Covid-19 -->
+  <div class="modal fade" id="covid-19" tabindex="-1" role="dialog" aria-labelledby="covid-19" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Regression to Study the Spread of Covid-19</h4>
+          <h6 class="modal-title-description">OLS Regressions on Stay at Home Orders, Analysis in R</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/covid-19/covid-19.jpeg" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Statistics/Lab%202%20-%20Regression%20to%20Study%20the%20Spread%20of%20COVID-19/Lab2Report.pdf" target="_blank" id="visit-btn">View Code/Report</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Model Size-->
+  <div class="modal fade" id="model-size" tabindex="-1" role="dialog" aria-labelledby="model-size" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Effect of Plus-Size Models on Intent to Purchase Clothing</h4>
+          <h6 class="modal-title-description">Experiment with Survey, Analyis in R</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/model-size/model-size-pics.png" alt="">
+          </p>
+          <p class="modal-description">Conducted an experiment to determine whether viewing plus-size models instead of size 0-4 models causes women to be more likely to purchase clothing. </p>
+          <div class="button_wrapper">
+            <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Experiments:Causality/W241_final_paper.pdf" target="_blank" id="visit-btn">View Paper</a></p>
+            <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/tree/main/Experiments:Causality" target="_blank" id="visit-btn">View Code/Repository</a></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Online News -->
+  <div class="modal fade" id="online-news" tabindex="-1" role="dialog" aria-labelledby="online-news" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Online News Popularity: Predicting Number of Views of Online Articles, Forbes Case Study</h4>
+          <h6 class="modal-title-description">Linear Regression,Ridge Regression, RANSAC, Feature Engineering, Web Scraping</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/online-news/online-news.png" alt="">
+          </p>
+          <p class="modal-description"></p>
+          <div class="button_wrapper">
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/blob/main/Machine%20Learning/Final%20Project%20/FinalReport.pdf" target="_blank" id="visit-btn">View Paper</a></p>
+          <p class="visit"><a href="https://github.com/hfarb/Data-Science-Portfolio/tree/main/Machine%20Learning/Final%20Project%20" target="_blank" id="visit-btn">View Code/Repository</a></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <section id="contact">
+    <footer>
+      <div class="copyright">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2>Contact</h2>
+              <p>Shoot me an email or check out my online profiles</p>
+              <p><a href="mailto:haleyfarber@berkeley.edu">haleyfarber@berkeley.edu</a></p>
+            </div>
+            <div class="col-md-12 text-center">
+              <!-- <h3>Other places you can find me</h3> -->
+              <ul class="list-inline banner-social-buttons animated fadeIn">
+                <!-- GitHub Button -->
+                <li><a id="github" href="https://github.com/hfarb" target="_blank"><i class="fa fa-github"></i></a></li>
+                <!-- LinkedIn Button -->
+                <li><a id="linkedin" href="https://www.linkedin.com/in/haley-farber/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright-text">
+            <p>Website designed and developed by Steve Jones: <a href="https://github.com/Steve-Jones/Steve-Jones.github.io/" target="_blank">View it on Github</a></p>
+            <p>&copy; Steve Jones
+              <script type="text/javascript">
+              document.write(new Date().getFullYear());
+              </script>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/theme.js"></script>
+
+  <!-- REQUIRED SCRIPTS FILES -->
+  <!-- CORE JQUERY SCRIPTS -->
+  <!-- <script src="js/jquery-1.11.1.js"></script> -->
+  <!--  FANCYBOX PLUGIN -->
+  <script src="js/source/jquery.fancybox.js"></script>
+  <!-- ISOTOPE SCRIPTS -->
+  <script src="js/jquery.isotope.js"></script>
+  <!-- CUSTOM SCRIPTS REQIRED-->
+  <script src="js/portfolio.js"></script>
+
+  <!-- ====================================================================================
+
+
+  .NNOZZ8DON,.
+  .,8Z88ZZ8ZZNN8OOO8..
+  DDOOODOZNZD8DOOONNDN8.
+  .Z888N888O88ODDDODDDOOO8ON.
+  =8O8D8D8DD8D8ODD8DDDOO8OO88N.
+  8OO8D8DDDDDDDDDD8DDD8DOOZO8I
+  .8O888$ONNNMOIDD8DMOZO8ODD8D8O.
+  .888==~~~~~~~~~~~~~~~~~~~~~N888,
+  D888==~~~~~~~~~~~~~~~~~~~~~~=888.     ==============================
+  .888O=~~~~~~~~~~~~~~~~~~~~~~~~=88=     |                            |
+  .88OI=~~~~~~~~~~~~~~~~~~~~~~~~=?8O.    |         HEY THERE!         |
+  .ZOOO==~~~~~~~~~~~~~~~~~~~~~~~~==OO     |                            |
+  .DOOO==~~~~~~~~~~~===~~~~~~~~~~==OO     |     THANKS FOR CHECKING    |
+  OOOO==~~~~~~~~~~~~~~~~~~~~~~~~==OO.    |        OUT MY SITE         |
+  OOO===~~~~~~~~~~~~~~~~~~~~~~~~==OO.    |                            |
+  .DOO==~~$$$$$$$~~~~~~~~~~$$$$~~~=OO.    |     SHOOT ME AN EMAIL:     |
+  ~~~OO==~~~~~~~~==~~~~~~++=~~~~+$~=ZZ     |    STEVE@STEVEJONES.IO     |
+  ID~O==~~~~M888=7+~~~~Z+?+D~7~~~~=?Z~.   |                            |
+  .O++I=+~~~~~~~~~=+~~~~+DIOZ.:+~~~=+~=+   ==============================
+  ~8~I=~~~~~~~~~~~~~~~~=~~~~~~~~~~=++M
+  ,$I+=~~~~~~~~~~~~~~~~~~~~~~~~~~~=Z~~.
+  .=~I=~~~~~~~~~~~~~~~~~~~~~~~~~~~=M~8
+  .~~=~~~~~~~~~~=~~~~~~+~~~~~~~~~=?O.
+  +~N~~~~~~~~~~~~~~~~=~?~~~~~~~~=~~.
+  .?+~~~~~~~~~~~+++$~~~~~~~~~~~=...
+  .+~~~~~~~~~~~~~~~~~~~~~~~~~=D
+  $+~~~~~I~~+?=~~~~~~~~~~~~~=.
+  .++~~~~~~+++++????+~~~~~~=+
+  ~++~~~~~~~~~~~~~~~~~~~~+=.
+  ~+++~~~~~~~~~~~~~~~~~~==.
+  ~~+7+~~~~~~===~~~~~~~~=.
+  .+~~+++~~~~~~~~~~~~~~~Z.
+  .+ ~~~++I~~~~~~~~~~~~~~.
+  .+N.  .~~===$~~~~~~~~~8~~.
+  .NNM.   ..I~===========~~?.
+  .MNNNN8$      N~========~~~M.
+  .NNNNNNNN7.      .I~~~~~~~~=.?
+  ..:NNNNNNNNNNNN .       ..~~~~~I. .N
+  .NNNNNNNDNNNNNNNNN,+         .8DD.. .NND..
+  ..MNNNNNNNNNNDNNNNNNNNNN?M        =NDD88. DNNNDN~..
+  ..?NNNNNNNNNNNNNNNNNNNNNNNNNN$=.     .NDD8888 DNNNNNNNNN..
+  .8NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN...    =NN8888D$..NNNNNNNNNN=.
+  NNNNNNNNNNNNNNNNNNNNNNNDNNNNNNNNN .:. Z~ MNNNND.Z..NNNNNNNNNNNM
+  NNNNNNNNNNNNNNNNNNNNNNDNNNNNNNNNNN. M.~  ..NNND8..  NNNDNNNNNNNN.
+  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNND  .     NNDDD.   .NNNNNDNNNNNN
+  NNNNMNNNNNNNNNNNNNNNNMNNNNNNNNNNNNNM.     .NN8888    MNNNNNNNNNNN.
+  NNNNNMNNNNNNNNNNNNNNNNMDNNNNNNNNNNNN$.    +NNDD88~   .NNNNNMNNNNND
+  NNNNNNMNNNNNNNNNNNNNNNNMMNNNNNNNNNNNN:    MNNDDD88.   7NNNNDNNNNNN.
+  NNNNNNNMNNNNNNNNNNNNNNNNNMDNNNNNNNNNNN.   MNNDDDDDM.   NNNNNNNNNNND
+  NNNNNNNNMMNNNNNNNNNNNNNNNNMMNNNNNNNNNNN.  MNN88DDDD.   MNNNNMNNNNNN
+  ==================================================================================== -->
+
+</body>
+
+</html>
