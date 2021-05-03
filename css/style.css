@@ -752,8 +752,8 @@ a.portfolio-btn:hover, a.portfolio-btn:active {
 
 
 .categories {
-  margin-left: -10px;
-  margin-right:-10px;
+  margin-left: -30px;
+  margin-right:0px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
