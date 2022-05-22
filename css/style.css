@@ -435,7 +435,7 @@ a.fa.fa-angle-down:focus {
 }
 
 #resume {
-    background: url(../img/resume8.jpg);
+    background: url(../img/resume_2022.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -752,7 +752,7 @@ a.portfolio-btn:hover, a.portfolio-btn:active {
 
 
 .categories {
-  margin-left: -35px;
+  margin-left: -30px;
   margin-right:0px;
   margin-top: 30px;
   margin-bottom: 30px;

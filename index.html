@@ -8,11 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="steve jones, steve, jones, stevejones.io, georgia tech, georiga institute of technology, atlanta, boston, umass, umass amherst, university of massachusetts, front-end, web, website, computer science, software, developer, engineer, designer, ux" />
   <meta name="author" content="Steve Jones" />
-  <meta name="description" content="Developer | Designer | Researcher" />
+  <meta name="description" content="Data Scientist" />
   <meta property="og:image" content= "img/haley.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Haley Farber's Portfolio" />
-  <meta property="og:description" content="Portfolio of my data science projects." />
+  <meta property="og:description" content="Portfolio of my data science projects." /> 
+
 
   <title>Haley Farber</title>
 
@@ -154,11 +155,11 @@
       <div class="intro-content">
         <h1 class="brand-heading animated fadeInDown delay-05s">Haley Farber</h1>
         <div class="picture hasPulse" id=picture></div>
-        <p class="intro-text animated fadeIn delay-2s">I'm a graduate student in UC Berkeley's Master of Information and Data Science program with skills in Python, R, SQL, and Tableau.</p>
+        <p class="intro-text animated fadeIn delay-2s">I'm a data scientist with skills in Python, R, SQL, and Tableau.</p>
       </div>
     </div>
     <div class="scroll-arrow">
-      <a href="#resume" class="fa fa-angle-down page-scroll">
+      <a href="#portfolio" class="fa fa-angle-down page-scroll">
       <!-- <i class="fa fa-angle-down page-scroll"></i> -->
       </a>
     </div>
@@ -175,7 +176,7 @@
             <div class="col-md-12">
               <h2 class="resume-caption">Check out my resume</h2>
               <div id="resume-button">
-                <a class="resume-btn animated bounceIn" href="Haley_Farber_Resume_2021.pdf" target="_blank">Resume</a>
+                <a class="resume-btn animated bounceIn" href="Haley_Farber_Resume_2022.pdf" target="_blank">Resume</a>
               </div>
             </div>
           </div>
@@ -194,7 +195,7 @@
         </div>
         <div class="col-md-12">
           <div class="categories">
-            <a href="#" data-filter="*" class="portfolio-btn">All</a>
+            <a href="#" data-filter="*" class="portfolio-btn">ALL</a>
             <a href="#" data-filter=".viz" class="portfolio-btn">DATA VISUALIZATION</a>
             <a href="#" data-filter=".nlp" class="portfolio-btn">NLP</a>
             <a href="#" data-filter=".mlearn" class="portfolio-btn">MACHINE LEARNING</a>
@@ -205,6 +206,20 @@
         </div>
       </div>
       <div class="row text-center" id="portfolio-div">
+        <!-- White Blood Cell Classifier Visualization -->
+        <div class="col-md-4 col-sm-6 portfolio-item mlearn">
+          <div class="portfolio-hover" data-toggle="modal" href="#white-blood-cell-classifier">
+            <div class="hover-text">
+              <div class="hover-text-box">
+                <h4>White Blood Cell Classifier</h4>
+                <hr>
+                <h6>Utilizing Deep Learning to to aid in AML diagnosis and research</h6>
+              </div>
+            </div>
+            <img src="img/projects/white-blood-cell-classifier/white-blood-cell.png" class="portfolio-image img-responsive" alt="">
+          </div>
+        </a>
+        </div>
         <!-- Twitter Bot Detection Visualization -->
         <div class="col-md-4 col-sm-6 portfolio-item nlp">
           <div class="portfolio-hover" data-toggle="modal" href="#twitter-bot-detection">
@@ -382,6 +397,31 @@
           </p>
           <p class="modal-description"></p>
           <p class="visit"><a href="mlb-stat-vis" target="_blank" id="visit-btn">View</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- white-blood-cell-classifier lightbox -->
+  <div class="modal fade" id="white-blood-cell-classifier" tabindex="-1" role="dialog" aria-labelledby="white-blood-cell-classifier" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">White Blood Cell Classifier</h4>
+          <h6 class="modal-title-description">Utilizing Deep Learning to to aid in AML diagnosis and research</h6>
+        </div>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive img-centered" src="img/projects/white-blood-cell-classifier/white-blood-cell-classifier.png" alt="">
+          </p>
+          <p class="modal-description"> Deep learning is used to classify types of white blood cells in blood smear slide images to aid in AML diagnosis and research. We have built a tool to aid in Acute Myeloid Leukemia diagnosis because it is relatively less researched and early detection can save a lot of people’s lives. Specifically, our models identify white blood cells in single cell images with high accuracy. This aids in diagnosis as certain cell subtypes are indicative of disease.</p>
+          <div class="button_wrapper">
+            <p class="visit"><a href="https://www.whitebloodcellclassifier.com/" target="_blank" id="visit-btn">View Wesbite</a></p>
+            <p class="visit"><a href="https://github.com/jacob-sycoff/aml-white-blood-cell-classifier" target="_blank" id="visit-btn">View Code</a></p>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -672,7 +712,7 @@
             <div class="col-lg-8 col-lg-offset-2">
               <h2>Contact</h2>
               <p>Shoot me an email or check out my online profiles</p>
-              <p><a href="mailto:haleyfarber@berkeley.edu">haleyfarber@berkeley.edu</a></p>
+              <p><a href="mailto:haley.s.farber@gmail.com">haley.s.farber@gmail.com</a></p>
             </div>
             <div class="col-md-12 text-center">
               <!-- <h3>Other places you can find me</h3> -->
